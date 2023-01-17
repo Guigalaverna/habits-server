@@ -1,1 +1,3 @@
 node_modules/
+prisma/habits-database.db
+prisma/habits-database.db-journal
