@@ -13,7 +13,7 @@ datasource db {
 model Habit {
   id        String   @id @default(uuid())
   title     String
-  createdAt DateTime
+  createdAt DateTime @default(now())
 
   @@map("habits")
 }
